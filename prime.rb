@@ -7,7 +7,6 @@ def prime?(num)
       return false
     end
     range.delete_if{|multiple| multiple % divi == 0 && multiple > divi}
-    binding.pry
   end
   num > 1
 end
